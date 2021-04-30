@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.homeBack{
+  background-color:rgba(0, 212, 240, 0.925);
+  width:fit-content;
+  position:absolute;
+  padding: 60px;
+  color: rgba(255, 255, 255, 0.925);
+  top:200px;
+  left:460px;
+  height:fit-content;
+  box-shadow: 10px 10px 90px rgba(0, 212, 240, 0.925);
+  border-radius: 10px;
+
+  
+}
+.home{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  color: rgb(255, 255, 255);
+}
+.home:hover{
+    color:rgb(255, 255, 255);
+  
+     
+}
+
+.nav{
+  
+  background-color:rgba(0, 212, 240, 0.925);
+  text-indent: 120px;
+  padding: 10px;
+  color: beige;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 212, 240, 0.925);
+
+
+}
+.navii{
+  
+  color: azure;
+  text-indent: 200px; 
+  
+}
+.navii:hover {
+  
+  color: azure;
+  
+  
+}
+
+.navi{
+  color: azure;
+  
+}
+.navi:hover{
+  color:azure;
+  
+}
+
+input[type=text]{
+  background-color: rgb(226, 254, 255);
+  padding: 5px;
+  border:0px;
+  width:200px;
+  border-radius: 5px;
+  border-color:rgb(190, 245, 255) ;
+}
+input[type=number]{
+  background-color: rgb(226, 254, 255);
+  padding: 5px;
+  border:0px;
+  width:200px;
+  border-radius: 5px;
+}
+
+.register{
+  background-color: rgb(61, 223, 245) ;
+  color: white;
+  width: 700px;
+  padding: 20px 20px;
+  position: relative;
+  left: 400px;
+  top:40px;
+  box-shadow: 10px 10px 100px rgb(61, 223, 245);
+  border-radius: 10px;
+} 
+input[type=submit]{
+  margin: 20px;
+  background-color: green;
+  border:green;
+  padding:10px;
+  box-shadow:5px 5px 100px rgb(105, 172, 6);
+  border-radius: 5px;
+  color:honeydew;
+
+}
+
+.adminin{
+  background-color: rgb(226, 254, 255);
+  padding: 5px;
+  border:0px;
+  width:200px;
+  border-radius: 5px;
+  border-color:rgb(190, 245, 255) ;
+}
+input[type=password]{
+  background-color: rgb(226, 254, 255);
+  padding: 5px;
+  border:0px;
+  width:200px;
+  border-radius: 5px;
+  border-color:rgb(190, 245, 255) ;
+}
+
+.adminback{
+  background-color: rgb(61, 223, 245) ;
+  color: white;
+  width: 700px;
+  padding: 20px 20px;
+  position: relative;
+  left: 400px;
+  top:40px;
+  box-shadow: 10px 10px 100px rgb(61, 223, 245);
+  border-radius: 10px;
+}
+
+h3{
+  margin: 20px;
+}
+
+.display{
+  background-color: rgb(61, 223, 245) ;
+  color: white;
+  width: 700px;
+  padding: 20px 20px;
+  height: fit-content;
+  position: relative;
+  left: 400px;
+  top:40px;
+  box-shadow: 10px 10px 100px rgb(61, 223, 245);
+  border-radius: 10px;
+} 
+
+.table{
+  background-color:rgb(226, 254, 255);
+  color:black;
+  border-radius: 10px;
+  border:0px;
+}
+
+.delete{
+  background-color: rgb(61, 223, 245) ;
+  color: white;
+  width: 700px;
+  padding: 20px 20px;
+  height: fit-content;
+  position: relative;
+  left: 400px;
+  top:40px;
+  box-shadow: 10px 10px 100px rgb(61, 223, 245);
+  border-radius: 10px;
+
+}
+
+.searchup{
+  background-color: rgb(61, 223, 245) ;
+  color: white;
+  width: 700px;
+  padding: 20px 20px;
+  position: relative;
+  left: 400px;
+  top:40px;
+  box-shadow: 10px 10px 100px rgb(61, 223, 245);
+  border-radius: 10px;
+}
+.searchtable{
+  background-color:rgb(226, 254, 255);
+  color:black;
+  border-radius: 10px;
+  border:0px;
+  padding:20px;
+}
+.row1{
+  border:40px;
+}
+
+.background{
+  background-image: url(https://th.bing.com/th/id/R00b49f2cd0291e375b0927e4ede285b6?rik=CtoHPBVyziUsqg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-prlTFkVz9U8%2fVRzLvUsf6fI%2fAAAAAAAAACc%2fmiiemwjaCQo%2fs1600%2fattendanceonline1.png&ehk=jgi4jxelvhh50rfUWH3Z%2fHgxDu5r%2fmmRJqrOJat7Ang%3d&risl=&pid=ImgRaw);
+  background-repeat: no-repeat;
+  background-position-x:1100px;
+  background-position-y:200px;
+
+}
